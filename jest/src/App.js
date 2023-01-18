@@ -18,6 +18,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <ul>
+          <li>member 1</li>
+          <li>member 2</li>
+          <li>member 3</li>
+        </ul>
     </div>
   );
 }

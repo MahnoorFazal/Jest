@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const a = 2;
+  const b = 3;
   return (
     <div className="App">
       <header className="App-header">
@@ -23,6 +25,8 @@ function App() {
           <li>member 2</li>
           <li>member 3</li>
         </ul>
+        <h1 data-testid="mytestid">Hello</h1>
+        <span title="sum">{a+b}</span>
     </div>
   );
 }
